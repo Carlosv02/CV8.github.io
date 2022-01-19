@@ -16,6 +16,11 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .card {
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+      margin-bottom: 10px; /* Added */
+}
     /* text on home page*/
     #maroon{
             color: maroon;
