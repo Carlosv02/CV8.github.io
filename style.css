@@ -6,7 +6,7 @@
         specific styles to add some pizzaz to your website.
  */
  body, html {
-        height: 100%;
+    height: 100%;
     }  
       
     .background-pic {
@@ -21,6 +21,15 @@
       float: none; /* Added */
       margin-bottom: 10px; /* Added */
 }
+    .card-projects{
+      margin: 50px;
+      padding: 40px;
+      background-color: white;
+      width: 500px;
+      height: 400px;
+      border-radius: 20px;
+
+    }
     /* text on home page*/
     #maroon{
             color: maroon;
