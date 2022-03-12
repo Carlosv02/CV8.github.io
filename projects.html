@@ -21,23 +21,33 @@
 
 <body>
 	<section class="header">
-		<nav>
-			<a href="index.html"><img src="img/namelogo.png"></a>
-			<div class="nav-links">
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="about-me.html">ABOUT ME</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-					<li><a href="involvement.html">INVOLVEMENT</a></li>
-					<li><a href="Resume_CarlosVelazquez.pdf">RESUME</a></li>
-				</ul>
+		<nav class="navbar navbar-expand-lg navbar-light ">
+			<a class = "navbar-brand" href="index.html"><img src="img/namelogo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav nav-links">
+				  <ul>
+					<li><a class="nav-item nav-link test active" href="index.html">HOME</a></li>
+					<li><a class="nav-item nav-link" href="about-me.html">ABOUT ME</a></li>
+					<li><a class="nav-item nav-link" href="projects.html">PROJECTS</a></li>
+					<li><a class="nav-item nav-link disabled" href="involvement.html">INVOLVEMENT</a></li>
+					<li><a class="nav-item nav-link disabled" href="Resume_CarlosVelazquez.pdf">RESUME</a></li>
+				  </ul>
+			  </div>
 			</div>
-		</nav>
+		  </nav>
+
 		<section class="container">
 			<div class="card">
 				<div class="card-image card-projects"></div>
 				<h2>Projects</h2>
-				<p>Text</p>
+				<p>Last semester in my ENGR 102 course, my group was assinged a project to create a simple game in Python. We decided to do to Pig Game, a rolling dice game, since the other
+					options were veery simple to do and we wanted to do something challenging. Each member was given a task and my responsibility was to create the menu options, display
+					the rules of the game, and code the dice. My team and I did a great job developing the game and we received an A.
+				</p>
+				<a href="https://github.com/Carlosv02/Projects/blob/main/Python%20Pig%20Game.py" class="button">Python Pig Game</a>
 			</div>
 		</section>
 	</section>
