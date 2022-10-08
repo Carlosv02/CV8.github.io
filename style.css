@@ -86,7 +86,7 @@
     }
     .card{
       width: 495px;
-      height: 540px;
+      height: 590px;
       border-radius: 15px;
       background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
       backdrop-filter: blur(10px);
@@ -124,7 +124,7 @@
       border-radius: 15px 15px 0 0;
      }
      .card-projects{
-      background-image: url('img/python.png');
+      background-image: url('img/Project\ Image.jpg');
      }
      .button{
        cursor: pointer;
