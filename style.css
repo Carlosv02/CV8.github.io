@@ -97,12 +97,12 @@
     .card-image{
       height: 400px;
       margin-bottom: 15px;
-      background-size: cover;
+      background-size: cover; 
       border-radius: 15px 15px 0 0;
     }
     .card-about-me{
       background-image: url('img/Pic\ of\ me.JPEG');
-    }
+    } 
     .card h2{
       padding: 10px;
     }
