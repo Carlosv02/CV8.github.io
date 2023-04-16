@@ -129,7 +129,13 @@
       background-image: url('img/Pig\ Game.png');
      }
      .card-projects2{
-      background-image: url('img/Crankshaft.png');
+      background-image: url('img/Engine\ Block.png');
+     }
+     .card-projects3{
+      background-image: url('img/MemAid.png');
+     }
+     .card-projects4{
+      background-image: url('img/3lb\ Combat\ Robot.png');
      }
      .button{
        cursor: pointer;
