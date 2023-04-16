@@ -58,10 +58,11 @@
     /*background*/
     section{
       width: 100;
-      height: 100vh;
+      /* height: 100vh; */
       color: #fff;
       background: linear-gradient(-45deg, #ffaf7b,#d76d77,#3a1c71);
       background-size: 400% 400%;
+      background-repeat: repeat;
       position: relative;
       animation: change 10s ease-in-out infinite;
     }  
@@ -148,9 +149,32 @@
       margin-bottom: 15px;
       background-size: cover;
       border-radius: 15px 15px 0 0;
+      overflow: hidden;
      }
+
      .card-involvement{
       background-image: url('img/shpe.jpg');
+     }
+
+     .image1 {
+      background-image: url('img/shpe.jpg');
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0;
+     }
+
+     .image2 {
+      background-image: url('img/Crankshaft.png');
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0;
+     }
+
+     .image3 {
+      background-image: url('img/python.png');
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0;
      }
 
     /* text on home page*/
